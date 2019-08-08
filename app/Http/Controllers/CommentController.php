@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Post;
 use App\Comment;
 use Auth;
-use App\events\NewComment;
+use App\Events\NewComment;
 
 class CommentController extends Controller
 {
