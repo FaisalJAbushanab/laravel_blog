@@ -86,7 +86,7 @@
 
           <div class="col-md-12" style="margin-bottom: 20px;">
             <div class="text-center">
-              Tutorial Taught & Built with ❤️ by <a href="https://devmarketer.io">DevMarketer</a>
+              made for tests purpose !
             </div>
           </div>
         </div>
