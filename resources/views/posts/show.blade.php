@@ -69,7 +69,7 @@
               });
       },
       postComment() {
-        axios.post('/api/posts/'+this.post.id+'/comment', {
+        axios.post('/posts/'+this.post.id+'/comment', {
           api_token: this.user.api_token,
           body: this.commentBox
         })
