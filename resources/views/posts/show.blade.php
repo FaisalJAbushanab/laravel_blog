@@ -79,6 +79,7 @@
         })
         .catch(function (error) {
           console.log(error);
+          alert(error);
         });
       },
       listen() {
