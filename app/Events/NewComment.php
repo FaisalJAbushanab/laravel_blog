@@ -9,10 +9,10 @@ use Illuminate\Broadcasting\PresenceChannel;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
-use Illuminate\Contracts\Broadcasting\ShouldBroadcastNow;
+use Illuminate\Contracts\Broadcasting\ShouldBroadcas;
 use App\Comment;
 
-class NewComment implements ShouldBroadcastNow
+class NewComment implements ShouldBroadcast
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
